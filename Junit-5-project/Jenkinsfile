@@ -26,7 +26,7 @@ pipeline {
      steps{
            bat label: '', script: '''mvn -f Junit-5-project/pom.xml sonar:sonar \
            -Dsonar.host.url=http://localhost:9000 \
-           -Dsonar.login=squ70c94293b7743fb191ab3227d5e2031d649e6e24'''
+           -Dsonar.login=squ_b35cb108b15235c6ba4dd8e0b7cc819973c82b3e'''
         }
          }
 
